@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>百度书城</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    
+    <link href="css/h5bookv2.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/zpmuslazy.min.js"></script>
+    <script type="text/javascript" src="js/wxbook.js"></script>
+    <link rel="icon" href="javascript:void(0)http://img.m.shucheng.baidu.com/operateimg/img/img/h5book/16.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="javascript:void(0)http://img.m.shucheng.baidu.com/operateimg/img/img/h5book/16.ico" type="image/x-icon" /> 
+	
+	</head>
+<style>
+.cz_line17{
+	table-layout: fixed;
+	  word-break: break-all;
+	  overflow: hidden;
+}
+
+</style>
+<body><style>
+	.header {
+  height: 43px;
+  background: #f7f7f7;
+  border-bottom: 1px #cbcbcb solid;
+  position: relative;
+  display: -webkit-box;
+  }
+  .new_h5_head {
+  display: -webkit-box;
+  line-height: 43px;
+  -webkit-box-flex: 1;
+  }
+  .new_h5_head>a:nth-of-type(1) {
+  width: 30px;
+  background-image: url("http://img.m.shucheng.baidu.com/operateimg/img/img/18721/18721.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 13px;
+  }
+  .new_h5_head>a:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: #333;
+  font-size: 17px;
+  }
+  .new_h5_head>a {
+  display: block;
+}
+.new_h5_head>a:nth-of-type(3) {
+  width: 30px;
+}
+.new_h5_head .font-name {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  margin-right: 10px;
+}
+  
+  </style>
+<header class="header">
+        <div class="new_h5_head">
+            <a class="ch_male _back"></a>
+            <a>书籍详情</a>
+			     		             <a class="font-name" href="javascript:void(0)/bookshelf?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bck=90">														书架
+												
+			</a>
+			    	 	        </div>
+ </header>
+<script>
+	$(function(){
+		var backUrl = "";
+		$(".header ._back").on("click", function(){
+			if(backUrl)
+			{
+				location.href = backUrl;
+			}else
+			{
+				history.back();
+			} 
+		})
+	})
+</script><style>
+.book_top .infour .bk_fl{height: 25px;position: relative; display: -webkit-box;}
+.book_top .infour .bk_fl .fl{  width:auto ;height: 23px; border:1px solid #d4d4d4; font-size: 12px;line-height: 23px; background-color: #fff;-webkit-border-radius:3px; color: #000; text-align: center; margin-right: 5px; padding: 0px 5px;}
+.book_top .infour .bk_fl .fl:active{background-color: #eee;}
+</style>
+<div class="muma_wap  magin">
+    <div class="book_top ">
+    
+        <div class="img book_xq_xm"><img src="http://img.m.shucheng.baidu.com/operateimg/img/img/18717/18717.jpg" data-original="http://img.shucheng.platform.zongheng.com/novel/group1/M00/12/DC/CwsAS1bnubaALjh6AAAL4JGs-ng266.jpg"></div>
+        <div class="infour">
+            <div class="in_textone" style="padding-right:15px;">特种兵在都市</div>
+            <div class="in_texttwo">都市 - 作者：夜十三</div>
+            <div class="in_texttwo">连载(共2133章)(懒人模板制作)</div>
+           
+                    </div>
+        <div id='heart' class="back_heart _collect"></div>
+    </div>
+    <div class="mulu_btns">
+                         <div class="mulu_l_btn" onclick="javascript:void(0)location.href='/book/read?fr=hao123&urbid=%2Fbook_92_0&bck=92&bkid=120040094&pos=0'" id="_read">
+                    <div>
+                <span></span>
+            </div>
+        </div>
+                <div class="mulu_s_btn" onclick="javascript:void(0)location.href='/sys/log?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bck=92&url=https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fpandareader%2Fid327313778%3Fl%3Den%26mt%3D8'">
+            <div>
+                <span></span>
+            </div>
+        </div>
+                 </div>
+    <!-- NEWS -->
+    <div class="new-book" style="">
+        <div class="zx">最新</div>
+                <div class="fn13" onclick="javascript:void(0)location.href='/book/read?fr=hao123&urbid=%2Fbook_92_0&bkid=120040094&bck=92&pos=0&crid=2133'">正文_第2133章 当我是傻子</div>
+                <div class="time_hoe">1天前</div>
+    </div>
+</div>
+
+
+ <style>
+    .toast{width:170px; min-width:100px;opacity:1; height:29px; color:#fff; line-height:29px; text-align:center; border-radius:4px;
+        position:fixed; top:40%; left:50%; margin-left:-85px; z-index:999999; filter: alpha(opacity=80); background:#000;}
+</style>
+<!---- TOAST ----->
+<script>
+    function Toast(msg,duration){
+        duration=isNaN(duration)?3000:duration;
+        var m = document.createElement('div');
+        m.innerHTML = msg;
+        m.className="toast";
+        document.body.appendChild(m);
+        setTimeout(function() {
+            var d = 0.5;
+            m.style.webkitTransition = '-webkit-transform ' + d + 's ease-in, opacity ' + d + 's ease-in';
+            m.style.opacity = '0';
+            setTimeout(function() { document.body.removeChild(m) }, d * 1000);
+        }, duration);
+    }
+</script>
+
+    <script>
+
+        function setTab(name,cursel,n){
+            for(i=1;i<=3;i++){
+                //var menu=document.getElementById(name+i);
+                //var con=document.getElementById("con_"+name+"_"+i);
+                //menu.className=i==cursel?"active":"";
+                //con.style.display=i==cursel?"block":"none";
+                var menu = $("#"+name+i), con = $("#con_"+name+"_"+i);
+                if(i==cursel){
+                	 menu.attr("class", "active");
+                	 con.show();
+                }else{
+                	menu.attr("class", "");
+                	 con.hide();
+                }
+            }
+        }
+		var method="";
+		if (method=='collect'){
+			cc = "back_heart";
+        	oc = "red_heart";
+			var u = "/service/bookuser?fr=hao123&urbid=%2Fbook_92_0&_ajax=1&method=&bkid=120040094&bck=92&pos=0";
+			
+			$.ajax({
+        			"url" : u,
+        			"dataType" : "json",
+        			"type" : "GET",
+        			"beforeSend" : function(){
+        				l = true;
+        			},
+        			success : function(data){
+        				l = false;
+        				if(data.code == 0){
+        					$("#heart").removeClass(cc).addClass(oc);
+        					Toast(data.message);
+        				}else{
+        					switch(data.code){
+        						case -9999:
+        							Toast("请先登录");
+        							break;
+        						default:
+        							Toast(data.message);
+        							break;
+        					}
+        				}
+        			}
+        		})
+		}
+        $(function(){
+        	$(".bk_fl .fl").each(function(idx, item){
+        		$(this).on("click", function(){
+        			var u = "/search?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bck=92";
+					var wd = $(this).data("text");
+					wd = wd?wd: $(this).text();
+        			location.href= u + (~u.indexOf("?") ? "&" : "?") + "keyword="+encodeURIComponent(wd);
+        		})
+        	})
+        	
+        	$("._collect").on("click", function(){
+        		var uid = "";
+        		if(!uid){
+        			location.href = "/login/logins?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&redirect=%2Fbook%3Ffr%3Dhao123%26urbid%3D%252Fcategory%252Fdetail_41_0%26bkid%3D120040094%26method%3Dcollect&bck=92";
+        			return;
+        		}
+        		var $this = this, cc, oc;
+        		if($(this).hasClass("red_heart")){
+        			cc = "red_heart";
+        			oc = "back_heart";
+        			var u = "/service/bookuser?fr=hao123&urbid=%2Fbook_92_0&method=uncollect&_ajax=1&bkid=120040094&bck=92&pos=0";
+        		}
+        		if($(this).hasClass("back_heart")){
+        			cc = "back_heart";
+        			oc = "red_heart";
+        			var u = "/service/bookuser?fr=hao123&urbid=%2Fbook_92_0&_ajax=1&method=&bkid=120040094&bck=92&pos=0";
+        		}
+        		var l = false;
+        		if(l) return;
+        		//alert(u);
+        		$.ajax({
+        			"url" : u,
+        			"dataType" : "json",
+        			"type" : "GET",
+        			"beforeSend" : function(){
+        				l = true;
+        			},
+        			success : function(data){
+        				l = false;
+        				if(data.code == 0){
+        					$($this).removeClass(cc).addClass(oc);
+        					Toast(data.message);
+        				}else{
+        					switch(data.code){
+        						case -9999:
+        							Toast("请先登录");
+        							break;
+        						default:
+        							Toast(data.message);
+        							break;
+        					}
+        				}
+        			}
+        		})
+
+        	})
+        })
+                  </script>
+<div class="_advert_show"  data-plugid="447" data-typeid="8" data-step="0" ></div><div class="mulu_lists">
+        <div class="catalog">
+        <div onclick="javascript:void(0)setTab('one',1,3)" id="one1" class="active">简介</div>
+        <div onclick="javascript:void(0)setTab('one',2,3)" id="one2" >目录</div>
+        <!-- <div onclick="javascript:void(0)setTab('one',3,3)" id="one3" >评论</div> -->
+    </div>
+    <div id="con_one_1">
+        <div class="janjie">
+           杨洛曾经是一名让所有国家军人闻名丧胆的兵王，他是地下世界大名鼎鼎的杀手法官，他是世界医学界里天才医生，他掌握着神秘组织高买。他性格嚣张狂妄，为达目的不折手段。他痞气十足，各种美女为他痴狂。在这繁华的都市，杨洛上演了一场激情四射的热血人生。
+            <div class="fn15">授权方：小说阅读网</div>
+        </div>
+            </div>
+    
+
+     <div id="con_one_2" style="display: none;">
+    	    	    	             <div class="list_main"  onclick="javascript:void(0)location.href='/book/read?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&crid=1&bck=95'">
+             
+            <font>第1章 引子</font>
+        </div>
+            	             <div class="list_main"  onclick="javascript:void(0)location.href='/book/read?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&crid=2&bck=95'">
+             
+            <font>第2章 韩国美女</font>
+        </div>
+            	             <div class="list_main"  onclick="javascript:void(0)location.href='/book/read?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&crid=3&bck=95'">
+             
+            <font>第3章 机场遇美</font>
+        </div>
+                 
+		<div class="menu_more_black marign"><a href="javascript:void(0)/book/menu?fr=hao123&urbid=%2Fbook_95_0&bkid=120040094&bck=95">更多目录 <span></span></a></div>
+    </div>
+    <!-- <div id="con_one_3" style="display: none;">
+        <div class="pinlun">
+            <div class="fn17">共有100条评论</div>
+            <div class="my_pinlun"><a href="javascript:void(0)/book/commentAdd?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&bck=95">我要评论</a></div>
+        </div>
+        <div class="review">
+            <div class="pic_img"><img src="http://img.m.shucheng.baidu.com/operateimg/img/img/14740/14740.jpg" alt=""> </div>
+            <div class="review_fn">
+                <div class="fn_name">独行的匹夫</div>
+                <div class="fn16">刚才看到很多人说发现《贴身狂医》完本，这是系统出了错误。</div>
+                <div class="fn15">2014-01-22  10:20</div>
+            </div>
+        </div>
+        <div class="menu_more_black marign"><a href="javascript:void(0)/book/comment?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&bck=95">查看更多评论 <span> &gt; </span></a></div>
+    </div>
+    <div  id="con_one_3" style="display: none;">
+        <div class="pinlun">
+            <div class="fn17">共有100条评论</div>
+            <div class="my_pinlun"><a href="javascript:void(0)##">我要评论</a></div>
+        </div>
+        <div class="review">
+            <div class="pic_img"><img src="http://img.m.shucheng.baidu.com/operateimg/img/img/14740/14740.jpg" alt=""> </div>
+            <div class="review_fn">
+                <div class="fn_name">独行的匹夫</div>
+                <div class="fn16">刚才看到很多人说发现《贴身狂医》完本，这是系统出了错误。</div>
+                <div class="fn15">2014-01-22  10:20</div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="pic_img"><img src="http://img.m.shucheng.baidu.com/operateimg/img/img/14740/14740.jpg" alt=""> </div>
+            <div class="review_fn">
+                <div class="fn_name">独行的匹夫</div>
+                <div class="fn16">刚才看到很多人说发现《贴身狂医》完本了，这是系统出了错误，这本书构架很大，现在还只是开始，如果完本流水会通知大家的，现在如果发现显示完结，你们只要在书架把它删除，在重新搜索《贴身狂医》加入书架就可以继续看了。</div>
+                <div class="fn15">2014-01-22  10:20</div>
+            </div>
+        </div>
+        <div class="menu_more_black marign"><a href="javascript:void(0)/book/comment?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&bck=95">查看更多评论</a> <span></span></div>
+    </div>-->
+    
+</div>
+<div class="_advert_show"  data-plugid="395" data-typeid="0" data-step="0" ></div><div class="book_pice">
+    <div class="book_head">读过本书的书友也读过<span class="fn14"><a class="change" href="javascript:void(0)javascript:void(0);">换一换</a></span></div>
+    <div id="booklist" >
+    
+    </div>
+</div>
+
+
+<style>
+.new_so_1{margin:10px 10px 0px 10px; background: #fff; height: 33px; border: 1px #d2d6d8 solid; display: -webkit-box;}
+.new_so_1{margin-top:20px;}
+.new_so_1 .so-input{-webkit-box-flex:1; padding: 0px 10px;}
+.new_so_1 .so-input input{ width: 100%; background: #fff; font-size: 14px; margin-top: 8px; }
+.new_so_1 .soso_ico{ width: 42px; height: 33px; background: #fbfbfb; border-left: 1px #d2d6d8 solid; background: url("http://img.m.shucheng.baidu.com/operateimg/img/img/18712/18712.png") center center no-repeat; background-size: 16px;}
+.mini-search-bar{margin-top:10px;}
+</style>
+    <div class="new_so_1">
+        <div class="so-input">
+            <input type="text" placeholder="作者名/书名" id="keyword_100">
+        </div>
+        <div class="soso_ico _search_100"></div>
+    </div>
+<script>
+$(function(){
+	var u = "/search?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bck=101&isSection=";
+	$("._search_100").on("click", function()
+	{
+		var k = $("#keyword_100").val();
+		if(k){  location.href = u + (~u.search("\\?") ? "&" : "?")+'keyword='+ encodeURIComponent(k);
+		}
+		else
+			{
+			 location.href = u + (~u.search("\\?") ? "&" : "?");
+			}
+	});
+})
+</script><script>var AdvPlugConf = {seqCurrent:{},stepList:{},stepOnly:{},};function  showMyAdvert(idname){var idname  = arguments[0] ? arguments[0] : "";var steps 	= arguments[1] ? arguments[1] : 0;var sendStepFlag = false;if(idname!="") {idname ="#"+idname;};var advertlist = $(idname+" ._advert_show");advertlist.each(function(i,n){var $this = $(n);var plugid     = $this.data("plugid");var typeid     = $this.data("typeid");var step       = $this.data("step");var stepList   = 'plug_stepList_' + plugid;var stepOnly   = 'plug_stepOnly_' + plugid;var seqCurrent = 'seqCurrent_' + plugid;var isSendRequest = true;if (typeof(AdvPlugConf.seqCurrent[seqCurrent]) == 'undefined') {AdvPlugConf.seqCurrent[seqCurrent] = -1;}if (step > 0) {if (typeof(AdvPlugConf.stepList[stepList]) == 'undefined') {AdvPlugConf.stepList[stepList] = [];}if (steps > 0 &&  AdvPlugConf.stepList[stepList].indexOf(steps) == '-1') {AdvPlugConf.stepList[stepList].push(steps);if(AdvPlugConf.stepList[stepList].length % (step + 1) == 0) {AdvPlugConf.seqCurrent[seqCurrent] += 1;} else {isSendRequest = false;}} else {isSendRequest = false;}} else if (step < 0) {if (typeof(AdvPlugConf.stepOnly[stepOnly]) == 'undefined') {AdvPlugConf.stepOnly[stepOnly] = false;} else {isSendRequest = false;}} else {AdvPlugConf.seqCurrent[seqCurrent] += 1;}if (plugid > 0 && isSendRequest) {$.ajax({type: "get",async: true,url: "/index/data_ajax?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&method=advert&_ajax=",dataType: "json",data: {plugid: plugid,typeid: typeid,current: AdvPlugConf.seqCurrent[seqCurrent]},success: function(result){if (result.code){$this.html(result.data);if($this.find("script").length>0){var jshtml=$($this.find("script")[0]).html();eval(jshtml);}}}});}});};showMyAdvert("");</script><!-- footer -->
+<div class="footer">
+    <a href="javascript:void(0)javascript:void(0)" class="rewinder"><div class="bac_to_top" id="bac_to_top"></div></a>
+        <div class="ft_two">
+        
+        <a href="javascript:void(0)/book?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bkid=120040094&bck=41&pos=0&v=2" >极速版</a>
+        <a  class="active">触屏版</a>
+        <a href="javascript:void(0)/sys/log?fr=hao123&urbid=%2Fcategory%2Fdetail_41_0&bck=228&url=https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fpandareader%2Fid327313778%3Fl%3Den%26mt%3D8%26datestamp%3D1467268556" >客户端</a>    </div>
+        <div class="ft_four">&copy; 2016 百度书城</div>
+</div>
+</body>
+</html><script>
+function on_Click(param){
+	this.param = $.extend({
+	 click_object:{}  //传入的click对象和跳转地址
+	},param);
+	this.on_location();
+}
+
+on_Click.prototype.on_location = function(){
+	var r = true; $this = this;
+	if(typeof(this.param.object_oC) == "object"){
+		if(this.param.object_oC.class_click !=''){
+			$(this.param.object_oC.class_click).on('click',function(){
+				var url = $(this).data("url");
+				if(url == ''){
+					return false;
+				}
+				location=url;
+			})
+		}
+	}else{
+		return false;
+	}
+}
+
+new on_Click({
+	object_oC:{'class_click':'','click_url':''},
+});
+<script type="text/javascript"> 
+     /*创建于2016-06-14*/ 
+     var cpro_id = "u2671677";
+</script>
+</script>
